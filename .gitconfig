@@ -7,12 +7,13 @@
 	b = branch
 
 	ra = remote add
+	rao = remote add origin
 	po = push origin
 	co = checkout
 	ba = checkout -b aritro
 	pom = push origin master
 	poa = push origin aritro 
-		
+	puom = pull origin master	
 
 [user]
 	email = aritro.pau61@gmail.com

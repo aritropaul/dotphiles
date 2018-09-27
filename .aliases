@@ -17,8 +17,8 @@ alias newmac='vi ~/.newmac'
 alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
 
 #git
-alias g='git'
-alias push='git add .;git commit -m "Pushed";gpom'
+alias g='git '
+alias push='git add .;git commit -m "Pushed";g pom'
 	#everything else has been moved to gitconfig
 
 #tap 
