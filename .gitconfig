@@ -3,7 +3,7 @@
 	s = status
 	p = push
 	a = add
-	c = commit -am
+	c = commit -m
 	b = branch
 
 	ra = remote add
@@ -12,6 +12,7 @@
 	ba = checkout -b aritro
 	pom = push origin master
 	poa = push origin aritro 
+		
 
 [user]
 	email = aritro.pau61@gmail.com
