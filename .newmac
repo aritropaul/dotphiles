@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+#ask for the password upfront
+	sudo -v
+
+#install brew
+	if ( brew --version ) < /dev/null > /dev/null 2>&1; then
+    		echo 'Homebrew is already installed!'
+	else
+    		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+	fi
+
+	brew update
+	brew upgrade
+
+#install stuff using brew
+	brew install node
+	brew install python
+	brew install heroku
+	brew tap caskroom/fonts
+	brew cask install font-fira-code
+	brew cask install visual-studio-code
+
+#cleanup
+	brew cleanup
+
+#node
+	npm install -g npm
+	npm update -g
+	
+#npm modules
+#will update
+

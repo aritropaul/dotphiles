@@ -6,12 +6,14 @@ source ~/.env
 alias bp='cp ~/.bash_profile "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias al='cp ~/.aliases "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias en='cp ~/.env "/Users/aritropaul/Documents/Codes/dotfiles"'
-alias gco='cp ~/.gitconfig "/Users/aritropaul/Documents/Codes/dotfiles"'
-alias dsync='bp;al;en;gcp'
+alias conf='cp ~/.gitconfig "/Users/aritropaul/Documents/Codes/dotfiles"'
+alias nm='cp ~/.newmac "/Users/aritropaul/Documents/Codes/dotfiles"'
+alias dsync='bp;al;en;conf;nm'
 alias aliases='vi ~/.aliases'
 alias bashp='vi ~/.bash_profile'
 alias env='vi ~/.env'
 alias gconf='vi ~/.gitconfig'
+alias newmac='vi ~/.newmac'
 alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
 
 #git
