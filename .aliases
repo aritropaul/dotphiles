@@ -16,6 +16,7 @@ alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
 
 #git
 alias g='git'
+alias push='git add .;git commit -m "Pushed";gpom'
 	#everything else has been moved to gitconfig
 
 #tap 
