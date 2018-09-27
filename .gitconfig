@@ -1,0 +1,18 @@
+[alias]
+	i = init
+	s = status
+	p = push
+	a = add
+	c = commit -am
+	b = branch
+
+	ra = remote add
+	po = push origin
+	co = checkout
+	ba = checkout -b aritro
+	pom = push origin master
+	poa = push origin aritro 
+
+[user]
+	email = aritro.pau61@gmail.com
+	name = notacoder69

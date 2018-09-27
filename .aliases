@@ -6,24 +6,21 @@ source ~/.env
 alias bp='cp ~/.bash_profile "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias al='cp ~/.aliases "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias en='cp ~/.env "/Users/aritropaul/Documents/Codes/dotfiles"'
-alias dsync='bp;al;en'
+alias gc='cp ~/.gitconfig "/Users/aritropaul/Documents/Codes/dotfiles"'
+alias dsync='bp;al;en;gc'
 alias aliases='vi ~/.aliases'
 alias bashp='vi ~/.bash_profile'
 alias env='vi ~/.env'
+alias gconf='vi ~/.gitconfig'
 alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
+
+#git
+alias g='git'
+	#everything else has been moved to gitconfig
 
 #tap 
 alias Tap='http --print=h --form POST http://phc.prontonetworks.com/cgi-bin/authlogin/ userId='$uname' password='$pass' serviceName='ProntoAuthentication' Submit22='Login''
 alias Tout='http --print=h POST http://phc.prontonetworks.com/cgi-bin/authlogout'
-
-#git shorts
-alias gi='git init'
-alias ga='git add .'
-alias gc='git commit -m "Pushed"'
-alias gpom='git push origin master'
-alias gpoa='git push origin aritro"'
-alias gb='git checkout -b "aritro"'
-alias g='ga;gc;gpom'
 
 #file shorts
 alias ..='cd ..'
