@@ -16,18 +16,48 @@
 #install stuff using brew
 	brew install node
 	brew install python
+	brew install git
 	brew install heroku
+	brew install httpie
 	brew tap caskroom/fonts
 	brew cask install font-fira-code
 	brew cask install visual-studio-code
+	brew install youtube-dl
+	brew install thefuck
 
 #cleanup
 	brew cleanup
+
+#aliases
+	alias nig='npm install -g'
+	alias pi='pip install'
+
 
 #node
 	npm install -g npm
 	npm update -g
 	
 #npm modules
-#will update
+	nig express
+	nig undollar
 
+
+#python modules
+	pi opencv-python
+	pi numpy
+	pi pandas
+	pi matplotlib
+	pi scikit-learn
+	pi scikit-image
+	pi beautifulsoup4
+	pi requests
+	pi pillow
+	pi scrapy
+	pi Flask
+	pi Django
+
+#xcode clt
+	xcode-select --install
+
+
+echo "You might need to restart after all this lmao"

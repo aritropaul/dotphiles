@@ -34,6 +34,13 @@ alias wm='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/Web Mining/Lab/Codes"
 alias p='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/Personal"'
 alias vd='open "/Users/aritropaul/Downloads/VIT Downloads"'
 
+#npm
+alias ni='npm install'
+alias nis='npm install --save'
+alias nig='npm install -g'
+alias nr='npm run'
+alias ns='npm start'
+alias nf='npm cache clean && rm -rf node_modules && npm install'
 
 #apps
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
