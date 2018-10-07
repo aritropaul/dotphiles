@@ -6,3 +6,5 @@ export PATH=/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 eval $(thefuck --alias)
 source ~/.bashrc         
+source ~/.autopodfile
+source ~/.autopodfile

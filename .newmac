@@ -16,6 +16,7 @@
 #install stuff using brew
 	brew install node
 	brew install python
+	brew install swift
 	brew install git
 	brew install heroku
 	brew install httpie
