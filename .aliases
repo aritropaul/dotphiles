@@ -49,7 +49,7 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 #system
 
-alias afk="osascript -e 'tell application \"System Events\" to keystroke \"Q\" using {command down,control down}'"
+alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
 alias src="dsync;source ~/.bash_profile;source ~/.aliases"
 
 #pods
