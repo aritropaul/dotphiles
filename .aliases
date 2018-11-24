@@ -20,7 +20,7 @@ alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias g='git '
 alias daalo='git add .;git commit -m "Pushed";g pom'
 	#everything else has been moved to gitconfig
-alias ginit='f(){ git init; git remote add origin "https://github.com/notACoder69/$1.git" git pull origin master;}; f'
+alias ginit='f(){ git init; git remote add origin "https://github.com/notACoder69/$1.git"; git pull origin master; unset -f f;}; f'
 
 #tap 
 alias Tap='http --print=h --form POST http://phc.prontonetworks.com/cgi-bin/authlogin/ userId='$uname' password='$pass' serviceName='ProntoAuthentication' Submit22='Login''
@@ -50,7 +50,7 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 #system
 
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"Q\" using {command down,control down}'"
-alias src="source ~/.bash_profile;source ~/.aliases"
+alias src="dsync;source ~/.bash_profile;source ~/.aliases"
 
 #pods
 alias pd="pod deintegrate"
