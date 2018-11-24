@@ -16,10 +16,10 @@
 	puom = pull origin master	
 
 [user]
-	email = saranshmanu@yahoo.co.in
+	email = aritro.paul61@gmail.com
 	name = notacoder69
 [core]
-	editor = Saransh
+	editor = Aritro
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

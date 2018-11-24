@@ -20,6 +20,7 @@ alias dot='cd "/Users/aritropaul/Documents/Codes/dotfiles"'
 alias g='git '
 alias daalo='git add .;git commit -m "Pushed";g pom'
 	#everything else has been moved to gitconfig
+alias ginit='f(){ git init; git remote add origin "https://github.com/notACoder69/$1.git" git pull origin master;}; f'
 
 #tap 
 alias Tap='http --print=h --form POST http://phc.prontonetworks.com/cgi-bin/authlogin/ userId='$uname' password='$pass' serviceName='ProntoAuthentication' Submit22='Login''
@@ -33,6 +34,7 @@ alias ip='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/Image/DA 1"'
 alias wm='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/Web Mining/Lab/Codes"'
 alias p='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/Personal"'
 alias vd='open "/Users/aritropaul/Downloads/VIT Downloads"'
+alias pdc='cd "/Users/aritropaul/Documents/Fall Sem 2018-19/PDC/Lab"'
 
 #npm
 alias ni='npm install'
@@ -47,7 +49,7 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 #system
 
-//alias afk="osascript -e 'tell application \"System Events\" to keystroke \"Q\" using {command down,control down}'"
+alias afk="osascript -e 'tell application \"System Events\" to keystroke \"Q\" using {command down,control down}'"
 alias src="source ~/.bash_profile;source ~/.aliases"
 
 #pods
